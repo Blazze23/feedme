@@ -1,0 +1,25 @@
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.input input {
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .input {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

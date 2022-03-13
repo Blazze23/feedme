@@ -1,0 +1,37 @@
+.meal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #27251f;
+  color: #ffc72c;
+}
+
+.meal:first-child {
+  margin-top: 0;
+}
+
+.meal h3 {
+  color: #fff;
+  margin: 0 0 0 0.25rem 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .meal {
+    flex-direction: row;
+    align-items: center;
+  }
+}

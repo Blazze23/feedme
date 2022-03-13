@@ -1,0 +1,74 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+  border: none;
+  background-color: #ffc72c;
+  color: #27251f;
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #27251f;
+  color: #ffc72c;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.cartText {
+  display: none;
+}
+
+.badge {
+  background-color: rgba(39, 37, 31, 0.33);
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  /* margin-left: 1rem; */
+  font-weight: bold;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: #ffc72c;
+  color: #27251f;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 768px) {
+  .cartText {
+    display: inline;
+  }
+  .badge {
+    margin-left: 1rem;
+  }
+}
