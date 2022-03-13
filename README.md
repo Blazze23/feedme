@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# FeedMe
+
+This project is a simulation of food ordering app created in React.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
