@@ -1,0 +1,90 @@
+.form {
+  margin: 1rem 0;
+  height: 22rem;
+  overflow: auto;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.control input {
+  font: inherit;
+  cursor: pointer;
+  color: #27251f;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #ffc72c;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  font-weight: bold;
+  color: #27251f;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions .button {
+  border: 1px solid #ffc72c;
+  background-color: #ffc72c;
+}
+
+.actions .button:hover,
+.actions .button:active {
+  background-color: #27251f;
+  border-color: #27251f;
+  color: #ffc72c;
+}
+
+.actions .button:disabled {
+  background-color: #cccc;
+  border-color: #cccc;
+  cursor: not-allowed;
+}
+
+.actions .button:disabled:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #27251f;
+}
+
+.actions .button-alt {
+  background-color: #da291c;
+  border: 1px solid #da291c;
+}
+
+.actions .button-alt:hover,
+.actions .button-alt:active {
+  background-color: #27251f;
+  border-color: #27251f;
+  color: #da291c;
+}
+
+.invalid label {
+  color: #da291c;
+}
+
+.invalid input {
+  border-color: #da291c;
+}
+
+.error-text {
+  color: #da291c;
+}

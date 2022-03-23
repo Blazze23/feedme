@@ -52,3 +52,21 @@
   border-color: #27251f;
   color: #da291c;
 }
+
+.submitting {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #27251f;
+}
+
+.submited {
+  text-align: center;
+  color: #27251f;
+  margin-bottom: 2rem;
+}
+
+.http-error {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #da291c;
+}

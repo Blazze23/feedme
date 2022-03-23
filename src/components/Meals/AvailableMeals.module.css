@@ -5,6 +5,18 @@
   animation: meals-appear 1s ease-out forwards;
 }
 
+.meals-loading {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #27251f;
+}
+
+.meals-error {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #da291c;
+}
+
 .meals ul {
   list-style: none;
   margin: 0;
@@ -19,5 +31,33 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (min-height: 600px) {
+  .meals-loading p,
+  .meals-error p {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (min-height: 700px) {
+  .meals-loading p,
+  .meals-error p {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-height: 800px) {
+  .meals-loading p,
+  .meals-error p {
+    margin-bottom: 23rem;
+  }
+}
+
+@media (min-height: 900px) {
+  .meals-loading p,
+  .meals-error p {
+    margin-bottom: 26rem;
   }
 }
